@@ -141,8 +141,8 @@ h1 {
 
 .intro-section {
   display: grid;
-  gap: clamp(24px, 5vw, 76px);
-  grid-template-columns: minmax(180px, 0.34fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 52px);
+  grid-template-columns: 1fr;
 }
 
 .section-heading {
@@ -217,11 +217,13 @@ h1 {
 
 .intro-copy h2 {
   color: var(--pink);
+  max-width: 12ch;
 }
 
 .intro-body {
   column-gap: 44px;
   columns: 2 320px;
+  max-width: 1120px;
 }
 
 .intro-body p {
@@ -312,10 +314,6 @@ h1 {
 
   .hero-media {
     max-width: min(78vw, 360px);
-  }
-
-  .intro-section {
-    grid-template-columns: 1fr;
   }
 
   .feature-grid,
