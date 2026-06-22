@@ -37,6 +37,18 @@ img {
   max-width: 100%;
 }
 
+.sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .site-header {
   align-items: center;
   backdrop-filter: blur(18px);
@@ -244,7 +256,7 @@ h1 {
   display: grid;
   gap: 12px;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  margin-top: clamp(38px, 6vw, 76px);
+  margin-top: 0;
 }
 
 .movement {
