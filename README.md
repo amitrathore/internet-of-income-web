@@ -1,8 +1,8 @@
 # Internet of Income
 
-Static GitHub Pages redesign for `internetofincome.carrd.co`.
+Static GitHub Pages site for Internet of Income.
 
-The site keeps the Carrd copy and image assets, while replacing the generated Carrd page with a lightweight hand-authored HTML/CSS/JS implementation.
+The site is a lightweight hand-authored HTML/CSS/JS implementation.
 
 ## GitHub Pages
 
